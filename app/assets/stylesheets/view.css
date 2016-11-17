@@ -1,4 +1,29 @@
+
+.movie {
+	border: 2px solid black;
+	width: 40%;
+	height: 600px;
+	float: left;
+	overflow: scroll;
+	margin: 20px;
+	/*display: inline-block;*/
+
+}
+.plot {
+	/*width: 50%;*/
+}
 .center {
 	font-size: 80px;
 	margin-left: 200px;
+}
+input[type=text] {
+	height: 40px;
+    width: 180px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    font-size: 20px;
+}
+input[type=text]:focus {
+    width: 40%;
+    font-size: 140%;
 }
